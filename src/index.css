@@ -1,0 +1,80 @@
+/*
+// highlight orange: #cc5200, rgb: 204, 82, 0
+// neutral gray: #f6f6ef
+*/
+
+:root {
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 400;
+  color: black;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button.action-button {
+  align-items: center;
+  justify-content: center;
+  padding: 5px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(204, 82, 0);
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+button.remove {
+  border: none;
+  color: rgb(0, 0, 0);
+  background: none;
+}
+
+.remove svg {
+  fill: rgba(0, 0, 0, 0.65) !important;
+}
+
+.tag-wrapper {
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.65);
+  color: rgba(0, 0, 0, 0.65);
+  border-radius: 3px;
+  background-color: rgb(227, 227, 206);
+  padding-left: 6px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  font-size: 16px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  display: inline-block;
+}
+
+div.tag-selected {
+  margin-bottom: 5px;
+}
+
+.tag-input-field {
+  font-size: 16px;
+  width: 85%;
+  padding: 4px;
+}

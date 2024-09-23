@@ -1,0 +1,9 @@
+#root {
+  width: 85%;
+  background-color: #f6f6ef;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 2em;
+}

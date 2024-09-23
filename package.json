@@ -1,0 +1,43 @@
+{
+  "name": "hn-post-optimizer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "gh-deploy": "git subtree split --prefix dist -b gh-pages-branch && git push origin gh-pages-branch:gh-pages --force && git branch -D gh-pages-branch"
+  },
+  "dependencies": {
+    "@nlux/react": "^2",
+    "@nlux/themes": "^2",
+    "@supabase/auth-ui-react": "^0.4.7",
+    "@supabase/auth-ui-shared": "^0.1.8",
+    "@supabase/supabase-js": "^2.45.4",
+    "@types/dompurify": "^3.0.5",
+    "@types/elasticlunr": "^0.9.9",
+    "dompurify": "^3.1.6",
+    "elasticlunr": "^0.9.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-modal": "^3.16.1",
+    "react-tag-input": "^6.10.3",
+    "zustand": "^5.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-modal": "^3.16.3",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.0.1",
+    "vite": "^5.4.1"
+  }
+}
