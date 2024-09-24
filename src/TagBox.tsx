@@ -48,8 +48,8 @@ export const TagBox: React.FC = () => {
         />
       </div>
       <div style={{ textAlign: "justify", marginRight: 8 }}>
-        The optimizer uses these keywords to identify related Hacker News posts
-        and more precisely tune your generated posts
+        The optimizer uses these tags to find related Hacker News posts. Three
+        to five is sufficient.
       </div>
       <IconButton
         onClick={generateTags}

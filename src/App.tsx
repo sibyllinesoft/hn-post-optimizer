@@ -74,6 +74,11 @@ function App() {
             style={{
               display: "flex",
               alignItems: "center",
+              backgroundColor: "rgb(0, 122, 204)",
+              color: "white",
+              fontWeight: 700,
+              borderRadius: 3,
+              border: "none",
               gap: "8px",
               padding: "10px 20px",
             }}

@@ -42,7 +42,7 @@ export const RelatedPostsTab: React.FC = () => {
       markAsRelevant(objectID);
     }
   };
-  const baseStyle = goodRelatedPosts.length > 0 ? { height: "85vh" } : {}
+  const baseStyle = goodRelatedPosts.length > 0 ? { height: "85vh" } : {};
   return (
     <div style={{ ...baseStyle, display: "flex", flexDirection: "column" }}>
       <div
@@ -57,10 +57,10 @@ export const RelatedPostsTab: React.FC = () => {
           Our post optimizer can find successful Hacker News posts that are
           potentially relevant to your product or service using the tags
           provided on the previous tab. We use these to improve the quality of
-          your generated post. Once you've retrieved posts, click the thumbs-up
-          icon to mark a post as relevant and optimizer will reference it when
-          crafting your post. Three to five relevant posts is sufficient for
-          good results.
+          your generated post. Once you've retrieved successful posts, click the
+          thumbs-up icon to mark a post as relevant and optimizer will reference
+          it when crafting your post. Five to ten relevant posts is sufficient
+          for good results.
         </div>
         <IconButton
           text="Get Related Posts"

@@ -8,8 +8,8 @@ export const CompanyInfoTab = () => {
     <div>
       {/* Instructions for product/company details */}
       <p>
-        Paste relevant product or company information into the box below. An
-        unstructured, unedited info dump is perfectly fine!
+        Paste relevant information about the post you'd like to create into the
+        box below. An unstructured, unedited info dump is perfectly fine!
       </p>
 
       {/* Label for the textarea */}
@@ -43,7 +43,9 @@ export const CompanyInfoTab = () => {
 
       <div style={{ display: "flex", width: "100%", marginTop: 20 }}>
         <div style={{ textAlign: "right", flexGrow: 1 }}>
-          <button className="action-button" onClick={() => setActiveTab(1)}>Next</button>
+          <button className="action-button" onClick={() => setActiveTab(1)}>
+            Next
+          </button>
         </div>
       </div>
     </div>

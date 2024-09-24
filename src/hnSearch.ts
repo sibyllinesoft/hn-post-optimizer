@@ -6,7 +6,7 @@ type Post = {
   };
   
   export async function searchHNPosts(keywords: string[]) {
-    const HN_API_URL = "http://hn.algolia.com/api/v1/search_by_date";
+    const HN_API_URL = "https://hn.algolia.com/api/v1/search_by_date";
   
     // Get the current timestamp and subtract 2 years in seconds (2 * 365 * 24 * 60 * 60)
     const currentTimestamp = Math.floor(Date.now() / 1000);
